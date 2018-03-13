@@ -1,0 +1,154 @@
+
+body{
+    background-image: url("images/Wallpaper.jpg");
+}
+.jumbotron {
+    background-color: #665599;
+    text-align: right;
+    vertical-align: middle;
+    color: gold;
+    padding: 0.5em 0.6em;
+}
+#jumbotron_image{
+    width: 10%;
+    height: auto;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+}
+#nav_bar{
+position: absolute;
+    top: 5px;
+    left: 5px;
+    font-size: 30px;
+    cursor:pointer
+
+}
+.column {
+    text-align: center;
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+    height: 300px;
+    color: #f1f1f1;
+    border-right-style: groove;
+    border-color: gold;}
+.list{
+    font-size: large;
+    color: #f1f1f1;
+    font-style: italic;
+}
+
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+    text-align: center;
+}
+div{
+    margin-bottom: 50px;
+}
+.glyphicon-heart,.glyphicon-book,.glyphicon-question-sign{
+    font-size: 100px;
+    color: gold;
+}
+.youtube{
+    text-align: center;
+    color: #f1f1f1;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+#left_tree{
+    position: relative;
+    float: left;
+    color: gold;
+    font-size: 300px;
+}
+#right_tree{
+    position: relative;
+    float: right;
+    color: gold;
+    font-size: 300px;
+}
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #665599;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+#quote{
+    text-align: center;
+    font-family: Georgia, serif;
+    font-size: 30px;
+    font-style: italic;
+    color: #383838;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
+.President,.Regional{
+    text-align: center;
+    color: #f1f1f1;
+
+}
+#President_Image,#Regional_Image{
+    width: 500px;
+    height: auto;
+    border-radius: 50%;
+}
+.under_image{
+    color: #f1f1f1;
+
+}
+.list{
+    float: right;
+    color: #f1f1f1;
+    font-size: x-large;
+
+}
+.heading{
+    text-align: center;
+    color: #f1f1f1;
+    font-size: xx-large;
+}
+.glyphicon-thumbs-up{
+    font-size: 100px;
+    color: gold;
+}
+#map{
+    text-align: center;
+    height: 400px;
+    width: 500px;
+}
